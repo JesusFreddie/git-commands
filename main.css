@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+:root {
+  --yellow: #FEC75D;
+  --green: #45FFE9;
+  --border-color: #46799E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  background-image: url("./img/Rectangle.jpg");
+  max-height: 100vh;
+}
+
+.header {
+  padding: 21px 0;
+  border-bottom: 1px solid var(--border-color);
+  background-color: #0F0F0F;
+  width: 100%;
+  text-align: center;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.yello {
+  color: var(--yellow);
+}
+.green {
+  color: var(--green);
+}
+.main {
+  display: flex;
+}
+.menu {
+  background-color: #0F0F0F;
+  height: 100vh;
+  min-width: 231px;
+  border-right: 1px solid #46799E;
+  flex: 1;
+  position: fixed;
+  top: 0;
+}
+.menu__list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow-y: scroll;
+}
+
+.content {
+  padding-top: 50px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+h1 {
+  
+  font-weight: 700;
+  font-size: 64px;
+  color: #45ffe9;
+  margin-bottom: 33px;
+}
+
+h2 {
+  color: var(--green);
+  font-weight: 500;
+  font-size: 40px;
+  color: #45ffe9;
+  margin-bottom: 16px;
+}
+
+.command {
+  background: #0F0F0F;
+  border: 1px solid #46799E;
+  border-radius: 5px;
+  padding: 9px 15px;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 414px;
+  min-width: max-content;
+}
+p {
+  margin-bottom: 12px;
+}
+section {
+  margin-bottom: 52px;
+  max-width: 1030px;
+}
+.subtext {
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+.mb {
+  margin-bottom: 20px;
+}
