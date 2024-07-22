@@ -1,1 +1,1 @@
-https://jesusfreddie.github.io/git-commands/#master
+https://jesusfreddie.github.io/git-commands/
